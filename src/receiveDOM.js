@@ -1,4 +1,4 @@
-import { recieveScore } from "./apiData";
+import { recieveScore } from './apiData.js';
 
 const scoreDisplay = document.getElementById('score-box');
 

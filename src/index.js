@@ -1,6 +1,6 @@
 import { data, display } from './data.js';
 import './style.css';
-import {  sendNewScore } from './apiData.js';
+import { sendNewScore } from './apiData.js';
 import render from './receiveDOM.js';
 
 display(data);
@@ -24,5 +24,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
   render();
 });
-
-
