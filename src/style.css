@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 100%;
+}
+
+.header-title {
+  margin: 3rem;
+  font-size: 1.5rem;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-top: 2rem;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.score {
+  margin-left: 10%;
+}
+
+.score-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.recent-score {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-refresh {
+  margin-left: 10rem;
+}
+
+.btn {
+  border: 1px solid;
+  padding: 0.5rem 1rem;
+  box-shadow: 2px 3px;
+  cursor: pointer;
+  background: #fff;
+  font-weight: 600;
+}
+
+.score-add {
+  margin-left: 10%;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  border: 2px solid;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+}
+
+.add-btn {
+  margin-top: 1.5rem;
+  align-self: flex-end;
+}
+
+.score-box {
+  border: 2px solid;
+  box-shadow: 2px 3px;
+  margin-top: 1.5rem;
+  padding: 0.2rem;
+}
+
+.table-data {
+  list-style: none;
+  border: grey 5px solid;
+}
