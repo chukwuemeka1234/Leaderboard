@@ -17,7 +17,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Live Demo
 
-[Live Demo Link](https://romantic-kepler-9d8155.netlify.app/)
+[Live Demo Link](https://modest-euler-9e82c2.netlify.app/)
 
 
 ## Getting Started
