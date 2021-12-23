@@ -17,7 +17,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Live Demo
 
-[Live Demo Link](https://chukwuemeka1234.github.io/Leaderboard/dist)
+[Live Demo Link](https://chukwuemeka1234.github.io/Leaderboard/dist/index.html)
 
 
 ## Getting Started
