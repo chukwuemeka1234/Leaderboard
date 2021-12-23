@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
-    const name = document.getElementById('name');
-    const score = document.getElementById('score');
+    const name = document.querySelector('.name-inputs');
+    const score = document.querySelector('.score-inputs');
     sendNewScore();
     name.value = '';
     score.value = '';

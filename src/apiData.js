@@ -1,8 +1,8 @@
 const userName = document.getElementById('name');
 const userScore = document.getElementById('score');
 
-const sendNewItem = () => {
-  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
+const sendNewItem = async () => {
+  const web = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
     method: 'POST',
     headers: {
       Accept: 'application/json',
@@ -10,10 +10,11 @@ const sendNewItem = () => {
     },
     body: JSON.stringify({ name: 'Avalanche Pipes' }),
   });
+  return web.json();
 };
 
-const sendNewScore = () => {
-  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/YQKZGYwmy1dBRFkOZiJs/scores/', {
+const sendNewScore = async () => {
+  const web = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/YQKZGYwmy1dBRFkOZiJs/scores/', {
     method: 'POST',
     headers: {
       Accept: 'application/json',
@@ -21,6 +22,7 @@ const sendNewScore = () => {
     },
     body: JSON.stringify({ user: userName.value, score: userScore.value }),
   });
+  return web.json();
 };
 
 const recieveScore = async () => {
