@@ -11,9 +11,22 @@ html {
   font-size: 100%;
 }
 
+body {
+  background-image: url("../img/pexels-pencil.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-bg {
+  background-color: #272a31;
+  padding: 2px;
+  max-width: 100%;
+}
+
 .header-title {
-  margin: 3rem;
-  font-size: 1.5rem;
+  margin: 3rem 0 3rem 10rem;
+  font-size: 2.5rem;
+  color: #fff;
 }
 
 .score-container {
@@ -26,7 +39,7 @@ html {
 }
 
 .score {
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 .score-title {
@@ -41,6 +54,11 @@ html {
 
 .btn-refresh {
   margin-left: 10rem;
+}
+
+.btn-refresh:hover {
+  color: #fff;
+  background-color: #00c3ff;
 }
 
 .btn {
@@ -72,11 +90,18 @@ html {
   align-self: flex-end;
 }
 
+.add-btn:hover {
+  color: #fff;
+  background-color: #00c3ff;
+}
+
 .score-box {
   border: 2px solid;
   box-shadow: 2px 3px;
   margin-top: 1.5rem;
   padding: 0.2rem;
+  height: 30rem;
+  overflow: auto;
 }
 
 .list-item {
@@ -90,4 +115,14 @@ html {
 
 .list-item:nth-child(odd) {
   background-color: #3e383814;
+}
+
+.footer {
+  background-color: #272a31;
+  margin-top: 5.2rem;
+  padding: 2rem;
+}
+
+.footer-text {
+  color: #fff;
 }
