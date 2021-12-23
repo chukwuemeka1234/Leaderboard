@@ -5,7 +5,7 @@
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to an [external API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
 <p align="center">
-  <img src="./"/>
+  <img src="./app_screenshot.PNG"/>
 </p>
 
 ## Built With
@@ -17,7 +17,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Live Demo
 
-[Live Demo Link](https://chukwuemeka1234.github.io/Leaderboard/)
+[Live Demo Link](https://romantic-kepler-9d8155.netlify.app/)
 
 
 ## Getting Started

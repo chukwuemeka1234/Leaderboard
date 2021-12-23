@@ -79,7 +79,15 @@ html {
   padding: 0.2rem;
 }
 
-.table-data {
+.list-item {
   list-style: none;
-  border: grey 5px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+}
+
+.list-item:nth-child(odd) {
+  background-color: #3e383814;
 }
